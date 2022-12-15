@@ -30,7 +30,9 @@ export default function Root() {
         <Suspense>
           <ErrorBoundary>
             <div class="m-4 flex justify-between items-center">
-              <h1>Flow State Timer</h1>
+              <h1>
+                <A href="/">Flow State Timer</A>
+              </h1>
               <div class="flex items-center space-x-4">
                 <A href="/about">
                   <span>?</span>
